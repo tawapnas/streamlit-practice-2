@@ -1,8 +1,6 @@
 import streamlit as st
 import datetime
-import google.generativeai as genai
-from google.generativeai import types
-
+from google import genai
 
 st.title("Your Favourite Travel Companion!")
 st.write("Welcome to the ultimate travel companion app. Here, you can find tips, recommendations, and tools to make your travel experience unforgettable!")
